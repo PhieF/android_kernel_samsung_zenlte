@@ -1,0 +1,25 @@
+
+==============================================
+Project History
+==============================================
+
+dts files for zenltexx from https://github.com/KeTuRr74/android_kernel_samsung_exynos7420
+kernel was based on AldeXus Kernel from https://github.com/minealex2244/AldeXus
+
+==============================================
+Project - How to build
+==============================================
+
+$ make clean
+$ make ARCH=arm64 lineageos_zenltexx_defconfig
+$ make ARCH=arm64
+
+if succes, copy Zimage and tdb files in arch/arm64/boot to /base_ramdisk_7420_oreo and create boot.img
+
+=================================
+Credit
+=================================
+
+KeTuRr74 -- Bunyamin OZDEMIR -- avatarfightgames@gmail.com
+minealex2244 -- Pop Alexandru Radu -- minealex2244@gmail.com
+me -- khoailang2500 -- ...@gmail.com
