@@ -6,7 +6,6 @@ NAME = TOSSUG Baby Fish
 
 # TOOLCHAIN_DIR =/home/minealex2244/Desktop/SM-G920F/gcc-linaro-4.9_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 # google toolchain
-TOOLCHAIN_DIR = /home/keturr74/LOS15.1/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 # aarch64-linux-gnu toolchain
 # export BUILD_CROSS_COMPILE=/home/osboxes/host/tools/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 
@@ -28,7 +27,6 @@ LC_COLLATE=C
 LC_NUMERIC=C
 export LC_COLLATE LC_NUMERIC
 
-# We are using a recursive build, so we need to do a little thinking
 # to get the ordering right.
 #
 # Most importantly: sub-Makefiles should only ever modify files in
